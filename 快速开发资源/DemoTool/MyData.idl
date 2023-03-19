@@ -1,0 +1,11 @@
+struct MyData
+{
+	short x;
+	short y;
+};
+
+struct aData
+{
+	short x;
+	short y;
+};
