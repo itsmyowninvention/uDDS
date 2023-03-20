@@ -69,7 +69,8 @@ void UserDataTypeListener::on_data_available(DataReader* reader)
 			if(memcmp(data_seq[i].md5, md5, MD5_DIGEST_LENGTH) == 0) {
 				printf("MD5值一致\n");
 			} else {
-				printf("MD5值不一致");
+				printf("MD5值不一致\n");
+				exit(0);
 			}
 	}
 }

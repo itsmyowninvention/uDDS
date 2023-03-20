@@ -1,5 +1,6 @@
 struct UserDataType{
-	char md5[20];
-	char message[1024];
+	long number;
+	long size;
+	string data;
 };
 

@@ -138,9 +138,9 @@ extern "C" int publisher_main(int domainId, int sample_count)
 		if (retcode != RETCODE_OK) {
 			fprintf(stderr, "write error %d\n", retcode);
 		}
-		else
+		else {
 			fprintf(stderr, "%d : write  successfully . . \n", count);
-		 sleep(1);//沉睡1秒
+		}
 	}
 
 	/* 8. 删除数据样本 */
